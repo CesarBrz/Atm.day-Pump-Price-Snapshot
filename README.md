@@ -23,7 +23,7 @@ Key components:
 * Configurable auto-buy filters: pool type, initial market-cap range, wallet score, top win-rate, trade count and more.
 * Matplotlib charts embedded in Tkinter for instant visual feedback.
 * 1-second CSV **snapshots** of the full table for later back-testing.
-* Optional Telegram integration so you never miss a new ATM-DAY alert.
+* Telegram integration so you never miss a new ATM-DAY alert.
 * Re-usable metrics class for notebooks, scripts or dashboards.
 
 > **Planned** – Full trade execution pipelines will live in dedicated `BuyHandler` / `SellHandler` classes. At the moment they are placeholders: only GUI pop-ups are triggered, no orders are sent.
