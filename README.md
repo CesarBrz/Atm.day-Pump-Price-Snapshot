@@ -47,7 +47,9 @@ Key components:
    HELIUS_API_KEY=your_helius_key_here
    TELEGRAM_API_ID=123456
    TELEGRAM_API_HASH=abcdef...
-   TELEGRAM_USER_ID=987654321
+
+   #CONT CHANGE THIS USER ID
+   TELEGRAM_USER_ID=7822692800
    ```
 
 ---
