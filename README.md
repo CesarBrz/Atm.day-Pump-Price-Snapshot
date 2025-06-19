@@ -8,8 +8,8 @@ Key components:
 | File | Purpose |
 |------|---------|
 | `1-price-monitor.py` | GUI application that tracks up to 30 mints simultaneously, automatically switching from PumpFun to PumpSwap once liquidity is active, calculates live metrics and can fire *BUY* signals based on configurable filters. |
-| `koth_monitor_atm.py` | Background Telegram listener that parses KoTH (King of the Hill) messages and feeds fresh mints — together with rich wallet statistics — directly into the price monitor. |
-| `token_metrics.py` | Stand-alone utility that turns raw snapshot rows + KoTH data into advanced metrics such as initial market-cap, ATH %, weighted wallet score, etc. |
+| `koth_monitor_atm.py` | Background Telegram listener that parses Atm.day Pump Algo messages and feeds fresh mints — together with rich wallet statistics — directly into the price monitor. |
+| `token_metrics.py` | Stand-alone utility that turns raw snapshot rows + token data into advanced metrics such as initial market-cap, ATH %, weighted wallet score, etc. |
 | `buy_handler.py` | Skeleton class used by the GUI to react to *BUY* signals (currently shows a message box only). A complementary **`SellHandler`** is planned for future releases. |
 | `2-snapshot-viewer.py` | Desktop tool to open the CSV snapshots produced by the monitor, review historical performance of each token and visualise growth charts. |
 | `get solana price.py` | Minimal example on how to fetch the current SOL ↔ USD price from CoinGecko (already integrated in the main GUI). |
@@ -57,7 +57,7 @@ Key components:
 ```bash
 python 1-price-monitor.py
 ```
-* Paste one mint per line or just wait for the KoTH monitor to inject new tokens automatically.
+* Paste one mint per line or just wait for the monitor to inject new tokens automatically.
 * Adjust the **Auto-buy Filters** pane at the top to fine-tune your strategy.
 * Double-click any row to open an individual Mcap chart.
 
