@@ -1,4 +1,4 @@
-# PumpFun / PumpSwap Multi-Mint Toolkit
+# Atm.day - PumpFun / PumpSwap token monitor and snapshotter.
 
 ## Overview
 This repository provides a **real-time toolkit for monitoring, analysing and (in the future) trading newly launched Solana tokens** that start on the _PumpFun_ bonding curve and later migrate to the _PumpSwap_ liquidity pool.
