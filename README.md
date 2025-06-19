@@ -1,7 +1,8 @@
 # Atm.day - PumpFun / PumpSwap token monitor and snapshotter.
 
 ## Overview
-This repository provides a **real-time toolkit for monitoring, analysing and (in the future) trading newly launched Solana tokens** that start on the _PumpFun_ bonding curve and later migrate to the _PumpSwap_ liquidity pool.
+This repository provides a **real-time toolkit for monitoring, analysing and (in the future) trading Atm.day Pump Algo tokens** using free tier Helius and Solana RPCs.
+Standalone classes can be used to fetch realtime price data from both Pump.fun and PumpSwap. May be easily customized to use paid RPCs (for smaller latency).
 
 Key components:
 
